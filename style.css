@@ -1,1 +1,30 @@
+* {
+    box-sizing: border-box;
+}
 
+header {
+    width: 100%;
+    min-height: 5.9375rem;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    padding: 1em 0 0 .5em;
+    background-color: #555555;
+}
+
+.logo  {
+    font-size: 1em;
+    float: left;
+    line-height: 0;
+    width: 10em;
+    position: relative;
+    top: 15px;
+    z-index: 1;
+}
+
+.navigation p {
+    float: right;
+    padding: 5px 70px 0px ;
+    color: white;
+}
