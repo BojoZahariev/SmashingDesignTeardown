@@ -30,15 +30,16 @@ header {
     z-index: 1;
 }
 .navigation {
-    display: block;
-    margin-left: -50px;
+    display: flex;
+    justify-content: space-around;
+    margin-left: 10%;
 }
 
 .navigation p {
-    float: right;
     padding: 15px 5%;
     color: white;
 }
+
 
 /*Articles*/
 
